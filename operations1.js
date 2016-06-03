@@ -1,0 +1,2 @@
+console.log(0.1 + 0.2);  // should output: 0.3 (actually 0.30000000000000004 because of precision issues )
+console.log(0.1 + 0.2 == 0.3); // should output: true, but due to floating point precision, it yields false when I tested it.
