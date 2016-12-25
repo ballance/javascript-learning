@@ -7,7 +7,7 @@ function foo1()
 
 function foo2()
 {
-  return
+  return // The compiler will subtly insert a semicolon here and return undefined.  Careful!
   {
       bar: "hello"
   };

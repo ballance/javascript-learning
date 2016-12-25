@@ -1,5 +1,8 @@
 (function(){
+  
+  // This is eqivalent to var a = b; b = 3; which puts b in the global scope 
   var a = b = 3;
+   
   c = 5;
 })();
 
